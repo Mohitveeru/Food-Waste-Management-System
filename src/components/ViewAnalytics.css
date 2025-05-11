@@ -1,0 +1,41 @@
+/* Container Styling */
+.analytics-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px; /* To avoid overlap with navbar */
+}
+
+/* Title */
+.analytics-container h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #2E7D32;
+}
+
+/* Table Styling */
+table {
+  width: 60%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+thead tr {
+  background-color: #ddd;
+}
+
+th, td {
+  padding: 14px 20px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  text-align: center;
+}
+
+tbody tr:hover {
+  background-color: #f1f1f1;
+}

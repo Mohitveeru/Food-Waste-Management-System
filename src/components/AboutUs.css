@@ -1,0 +1,50 @@
+
+/* About Us Page Content */
+.aboutus-content-wrapper {
+  margin-top: 100px;
+  padding: 0px 0px;
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutus-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.aboutus-header h1 {
+  font-size: 40px;
+  color: #2E7D32;
+  margin-bottom: 10px;
+}
+
+.aboutus-header p {
+  font-size: 18px;
+  color: #555;
+}
+
+.aboutus-content section {
+  margin-bottom: 30px;
+}
+
+.aboutus-content h2 {
+  font-size: 28px;
+  color: #388E3C;
+  margin-bottom: 10px;
+}
+
+.aboutus-content p {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.aboutus-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.aboutus-content li {
+  font-size: 17px;
+  margin-bottom: 8px;
+}

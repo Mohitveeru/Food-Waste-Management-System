@@ -1,0 +1,91 @@
+/* General Container */
+.container {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #4CAF50, #2E7D32);
+  padding: 15px 0px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: 80px;
+}
+
+/* Title section only (logo removed) */
+.nav-left {
+  display: flex;
+  align-items: center;
+  margin-left: 1cm; /* shifted 1cm toward center */
+}
+
+.project-title {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* Button container on the right */
+.nav-right {
+  display: flex;
+  gap: 18px;
+  margin-right: 1cm; /* shifted 1cm toward center */
+}
+
+/* Button Styling */
+.nav-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: #2E7D32;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #66BB6A;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Main Content */
+.content {
+  flex: 1;
+  margin-top: 80px; /* To avoid overlap with navbar */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #2E7D32;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 10px auto;
+  color: #333;
+}
